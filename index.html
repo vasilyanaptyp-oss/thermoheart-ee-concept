@@ -2,22 +2,22 @@
 <html lang="et">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ThermoHeart OÜ: soojuspumbad ja küte Lääne-Virumaal</title>
 <meta name="description" content="Õhk-õhk- ja õhk-vesisoojuspumpade müük, paigaldus ja hooldus, kliimaseadmete ja küttesüsteemide paigaldus. ThermoHeart OÜ, Väike-Maarja vald, Lääne-Virumaa.">
 <meta name="robots" content="noindex">
+<link rel="canonical" href="https://vasylian.com/thermoheart-ee-concept/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="et_EE">
 <meta property="og:site_name" content="ThermoHeart OÜ">
 <meta property="og:title" content="ThermoHeart OÜ: soojuspumbad ja küte Lääne-Virumaal">
 <meta property="og:description" content="Õhk-õhk- ja õhk-vesisoojuspumpade müük, paigaldus ja hooldus, kliimaseadmete ja küttesüsteemide paigaldus. ThermoHeart OÜ, Väike-Maarja vald, Lääne-Virumaa.">
-<meta name="theme-color" content="#F2EDE4">
+<meta name="theme-color" content="#F4F6F6">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%237A1F2E'/%3E%3Cpath%20d='M32%2053%20L10.79%2031.79%20A15%2015%200%200%201%2032%2010.57%20A15%2015%200%200%201%2053.21%2031.79%20Z'%20fill='none'%20stroke='%23F2EDE4'%20stroke-width='4.2'%20stroke-linejoin='round'/%3E%3Ccircle%20cx='32'%20cy='53'%20r='4'%20fill='%23F2EDE4'/%3E%3C/svg%3E">
-<link rel="preload" href="fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/instrument-sans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/home.css">
 <script>document.documentElement.className+=' js';</script>
-<script src="js/site.js" defer></script>
+<script src="js/home.js" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -49,234 +49,241 @@
 <body>
 <a class="skip" href="#sisu">Põhisisu juurde</a>
 
-<header class="top">
-  <div class="wrap">
-    <a class="brand" href="index.html" aria-label="ThermoHeart OÜ, avaleht">
-      <svg viewBox="40 70 320 305" aria-hidden="true" focusable="false"><path d="M200 352 L79.79 231.79 A85 85 0 0 1 200 111.58 A85 85 0 0 1 320.21 231.79 Z" fill="none" stroke="#7A1F2E" stroke-width="22" stroke-linejoin="round"/><circle cx="200" cy="352" r="24" fill="#7A1F2E"/></svg>
-      <span><b>Thermo</b>Heart</span>
-    </a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-btn-label">Menüü</span><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path class="i-open" d="M3 6h14M3 10h14M3 14h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="i-close" d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
-    <nav class="nav" id="menu" aria-label="Põhimenüü">
-      <a href="teenused.html">Teenused</a>
-      <a href="hooldus.html">Hooldus</a>
-      <a href="meist.html">Meist</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a class="nav-cta" href="kontakt.html#vorm">Küsige pakkumist</a>
-    </nav>
-  </div>
+<header class="mast">
+  <a class="mark" href="index.html" aria-label="ThermoHeart OÜ, avaleht">
+    <svg viewBox="40 70 320 305" aria-hidden="true" focusable="false"><path d="M200 352 L79.79 231.79 A85 85 0 0 1 200 111.58 A85 85 0 0 1 320.21 231.79 Z" fill="none" stroke="#fff" stroke-width="24" stroke-linejoin="round"/><circle cx="200" cy="352" r="26" fill="#fff"/></svg>
+    <span>Thermo<b>Heart</b></span>
+  </a>
+  <nav class="mast-nav" aria-label="Põhimenüü">
+    <a href="teenused.html">Teenused</a>
+    <a href="hooldus.html">Hooldus</a>
+    <a href="meist.html">Meist</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <button class="menu-open" type="button" aria-expanded="false" aria-controls="menu">Menüü<span aria-hidden="true"></span></button>
 </header>
+
+<div class="sheet" id="menu" hidden>
+  <div class="sheet-top">
+    <a class="mark" href="index.html" aria-label="ThermoHeart OÜ, avaleht">
+      <svg viewBox="40 70 320 305" aria-hidden="true" focusable="false"><path d="M200 352 L79.79 231.79 A85 85 0 0 1 200 111.58 A85 85 0 0 1 320.21 231.79 Z" fill="none" stroke="#7A1F2E" stroke-width="24" stroke-linejoin="round"/><circle cx="200" cy="352" r="26" fill="#7A1F2E"/></svg>
+      <span>Thermo<b>Heart</b></span>
+    </a>
+    <button class="sheet-close" type="button" aria-controls="menu" aria-expanded="true">Sulge</button>
+  </div>
+  <nav aria-label="Põhimenüü">
+    <a href="teenused.html">Teenused</a>
+    <a href="ohk-vesi-soojuspumbad.html">Õhk-vesisoojuspumbad</a>
+    <a href="ohk-ohk-soojuspumbad.html">Õhk-õhksoojuspumbad</a>
+    <a href="hooldus.html">Hooldus</a>
+    <a href="meist.html">Meist</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <p class="sheet-foot">Kirjutage: <a href="mailto:thermo.heart@hotmail.com">thermo.heart@hotmail.com</a><br><span class="nw">Väike-Maarja</span> vald, <span class="nw">Lääne-Virumaa</span></p>
+</div>
 
 <main id="sisu">
 
-  <section class="hero" id="algus" aria-labelledby="h1">
-    <div class="wrap hero-grid">
-      <div class="hero-text">
-        <p class="kicker">ThermoHeart OÜ · registreeritud 2005</p>
-        <h1 id="h1">Soojuspumbad, küte ja kliimaseadmed <em>Lääne-Virumaal</em></h1>
-        <p class="lead">Müüme, paigaldame ja hooldame <span class="nw">õhk-õhk-</span> ja <span class="nw">õhk-vesisoojuspumpasid</span>. Paigaldame ka kliimaseadmeid ja küttesüsteeme. Asume Väike-Maarja vallas.</p>
-        <div class="actions">
-          <a class="btn btn--primary" href="mailto:thermo.heart@hotmail.com?subject=Hinnap%C3%A4ring&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%20%28nt%20eramu%20v%C3%B5i%20talu%2C%20k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0AS%C3%BCsteem%20%28nt%20%C3%B5hk-vesisoojuspump%2C%20k%C3%BCttes%C3%BCsteem%2C%20kliimaseade%29%3A%0D%0A%0D%0AMida%20on%20vaja%20teha%20%28nt%20paigaldus%2C%20hooldus%2C%20remont%29%3A%0D%0A%0D%0AMulle%20sobiv%20aeg%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige pakkumist <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <a class="btn btn--ghost" href="teenused.html">Vaadake teenuseid</a>
-        </div>
-        <p class="note">Nupp avab e-kirja aadressile <span>thermo.heart@hotmail.com</span> koos valmis kirjapõhjaga.</p>
-      </div>
-      <figure class="hero-photo">
-        <div class="hero-frame"><picture>
-          <source media="(max-width: 700px)" srcset="img/hero-800.webp" type="image/webp">
-          <img src="img/hero-1400.webp" width="1400" height="933" fetchpriority="high" decoding="async" alt="Õhk-vesisoojuspumba välisosa tellisseinaga maja ees aias">
-        </picture></div>
-        <figcaption>Õhk-vesisoojuspumba välisosa maja seina ääres.</figcaption>
-      </figure>
-    </div>
-    <div class="wrap">
-      <div class="facts">
-        <ul>
-          <li><strong>Registreeritud</strong><span>28.06.2005</span></li>
-          <li><strong>Väike-Maarja vald</strong><span>Lääne-Virumaa</span></li>
-          <li><strong>Jyri Tuli</strong><span>kontaktisik, juhatuse liige</span></li>
-        </ul>
+  <section class="hero" aria-labelledby="h1">
+    <picture class="hero-photo">
+      <source media="(max-width: 760px)" srcset="img/v2-talv-900.webp" width="900" height="1440">
+      <img src="img/v2-talv-2000.webp" width="2000" height="1231" fetchpriority="high" decoding="async" alt="Maamaja lumise põllu taga, puud härmas, talvine pärastlõuna">
+    </picture>
+    <div class="hero-copy">
+      <h1 id="h1"><span>Talv jääb</span> <span>õue.</span></h1>
+      <p class="hero-lead">Müüme, paigaldame ja hooldame <span class="nw">õhk-õhk-</span> ja <span class="nw">õhk-vesisoojuspumpasid</span>. Paigaldame ka küttesüsteeme ja kliimaseadmeid. <span class="nw">Lääne-Virumaal</span>, <span class="nw">Väike-Maarja</span> vallast.</p>
+      <div class="hero-act">
+        <a class="btn" href="mailto:thermo.heart@hotmail.com?subject=Hinnap%C3%A4ring&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%20%28nt%20eramu%20v%C3%B5i%20talu%2C%20k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0AS%C3%BCsteem%20%28nt%20%C3%B5hk-vesisoojuspump%2C%20k%C3%BCttes%C3%BCsteem%2C%20kliimaseade%29%3A%0D%0A%0D%0AMida%20on%20vaja%20teha%20%28nt%20paigaldus%2C%20hooldus%2C%20remont%29%3A%0D%0A%0D%0AMulle%20sobiv%20aeg%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Kirjutage meile <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="tlink" href="#valik">Mis sobib minu majale?</a>
       </div>
     </div>
   </section>
 
-  <section class="section services" id="teenused" aria-labelledby="teenused-h">
+  <section class="path" aria-labelledby="path-h">
     <div class="wrap">
-      <div class="section-head">
-        <div>
-          <p class="kicker">Teenused</p>
-          <h2 class="h2" id="teenused-h">Mida teeme</h2>
-        </div>
-        <p>Süsteemid ja tööd ühes tabelis. Kus on kirjas „küsige“, avab link e-kirja, mille teema on juba täidetud: kirjutage oma küsimus.</p>
+      <div class="path-head">
+        <h2 id="path-h">Soojus tuleb õuest.</h2>
+        <p class="lead">Soojuspump võtab soojust välisõhust ja viib selle majja. Õhk-vesisoojuspump annab soojuse küttesüsteemi veele, õhk-õhksoojuspump soojendab otse toa õhku.</p>
       </div>
-      <div class="matrix-card">
-        <table class="matrix">
-          <caption class="sr-only">ThermoHeart OÜ teenused: süsteemid ja tööd</caption>
-          <thead>
-            <tr><th scope="col">Süsteem</th><th scope="col">Müük</th><th scope="col">Paigaldus</th><th scope="col">Hooldus</th><th scope="col">Projekteerimine</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"><span class="sys"><img class="sys-img" src="img/air-air-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Valgele seinale kinnitatud õhk-õhksoojuspumba välisosa sinise taeva taustal"><span class="sys-name"><a class="sys-link" href="ohk-ohk-soojuspumbad.html">Õhk-õhksoojuspumbad</a></span></span></th>
-              <td data-label="Müük"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Paigaldus"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Hooldus"><span class="cell"><span class="yes">Teeme</span><span class="yes-note">ka remont</span></span></td>
-              <td data-label="Projekteerimine"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20%C3%B5hk-%C3%B5hksoojuspumbad%2C%20projekteerimine&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: õhk-õhksoojuspumpade projekteerimine">Küsige</a></span></td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="sys"><img class="sys-img" src="img/air-water.webp" width="800" height="533" loading="lazy" decoding="async" alt="Õhk-vesisoojuspumba välisosa valge maja seina ääres, ümber tujad ja kruus"><span class="sys-name"><a class="sys-link" href="ohk-vesi-soojuspumbad.html">Õhk-vesisoojuspumbad</a></span></span></th>
-              <td data-label="Müük"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Paigaldus"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Hooldus"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Projekteerimine"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20%C3%B5hk-vesisoojuspumbad%2C%20projekteerimine&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: õhk-vesisoojuspumpade projekteerimine">Küsige</a></span></td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="sys"><img class="sys-img" src="img/heating-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Küttesüsteemi jaotur torude, tsirkulatsioonipumba ja ventiilidega"><span class="sys-name"><a class="sys-link" href="kuttesusteemid.html">Küttesüsteemid</a></span></span></th>
-              <td data-label="Müük"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20k%C3%BCttes%C3%BCsteemid%2C%20m%C3%BC%C3%BCk&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: küttesüsteemide müük">Küsige</a></span></td>
-              <td data-label="Paigaldus"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Hooldus"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20k%C3%BCttes%C3%BCsteemid%2C%20hooldus&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: küttesüsteemide hooldus">Küsige</a></span></td>
-              <td data-label="Projekteerimine"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20k%C3%BCttes%C3%BCsteemid%2C%20projekteerimine&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: küttesüsteemide projekteerimine">Küsige</a></span></td>
-            </tr>
-            <tr class="is-cool">
-              <th scope="row"><span class="sys"><img class="sys-img" src="img/climate-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Seinale paigaldatud kliimaseadme siseosa"><span class="sys-name"><a class="sys-link" href="kliimaseadmed.html">Kliimaseadmed</a></span></span></th>
-              <td data-label="Müük"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20kliimaseadmed%2C%20m%C3%BC%C3%BCk&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: kliimaseadmete müük">Küsige</a></span></td>
-              <td data-label="Paigaldus"><span class="cell"><span class="yes">Teeme</span></span></td>
-              <td data-label="Hooldus"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20kliimaseadmed%2C%20hooldus&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: kliimaseadmete hooldus">Küsige</a></span></td>
-              <td data-label="Projekteerimine"><span class="cell"><a class="ask" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20kliimaseadmed%2C%20projekteerimine&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A" aria-label="Küsige e-kirjaga: kliimaseadmete projekteerimine">Küsige</a></span></td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="matrix-foot">Iga süsteemi kohta on eraldi leht: kellele see sobib ja mida on hea teada. <a class="link-arrow" href="teenused.html">Kõik teenused</a></p>
+      <ol class="stations">
+        <li class="st st--out">
+          <h3>Õues</h3>
+          <figure><img src="img/v2-oues.webp" width="1200" height="800" loading="lazy" decoding="async" alt="Õhk-vesisoojuspumba välisosa valge maja seina ääres, ümber tujad"></figure>
+          <p>Välisosa seisab maja kõrval ja võtab soojust välisõhust. Hoidke selle ümber vaba ruum: lumi, lehed ja oksad ei tohi õhu liikumist takistada.</p>
+        </li>
+        <li class="st st--in">
+          <h3>Majas</h3>
+          <figure><img src="img/v2-majas.webp" width="900" height="900" loading="lazy" decoding="async" alt="Tehnik paigaldamas küttesüsteemi seadet tehnoruumis"></figure>
+          <p>Õhk-vesisoojuspump annab soojuse küttesüsteemi veele. Soe vesi liigub radiaatoritesse või põrandakütte torudesse.</p>
+          <a class="tlink" href="ohk-vesi-soojuspumbad.html">Õhk-vesisoojuspumbad</a>
+        </li>
+        <li class="st st--room">
+          <h3>Toas</h3>
+          <figure><img src="img/v2-toas.webp" width="860" height="1075" loading="lazy" decoding="async" alt="Elutuba diivaniga, seinal siseosa"></figure>
+          <p>Õhk-õhksoojuspump soojendab toa õhku seinale paigaldatud siseosaga. Sobib, kui soovite soojendada üht või mitut ruumi.</p>
+          <a class="tlink" href="ohk-ohk-soojuspumbad.html">Õhk-õhksoojuspumbad</a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="pick" id="valik" aria-labelledby="pick-h">
+    <div class="wrap pick-grid">
+      <div class="pick-head">
+        <h2 id="pick-h">Kust te alustate?</h2>
+        <p>Valige lause, mis kirjeldab teie maja. Kui te ei ole kindel, kirjutage oma maja ja soovi kohta: aitame valida.</p>
+        <a class="tlink" href="teenused.html">Kõik teenused</a>
+      </div>
+      <div class="pick-list">
+        <details class="opt" name="valik" open>
+          <summary><span>Maja kütab vesi radiaatorites või põrandas.</span><span class="opt-dot" aria-hidden="true"></span></summary>
+          <div class="opt-a">
+            <figure><img src="img/hero-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Õhk-vesisoojuspumba välisosa tellisseinaga maja ees aias"></figure>
+            <div>
+              <p class="opt-sys">Õhk-vesisoojuspump</p>
+              <p>Soojuspump, mis annab soojuse edasi maja küttesüsteemi veele.</p>
+              <p class="opt-do">Teeme: müük, paigaldus ja hooldus.</p>
+              <p class="row"><a class="tlink" href="ohk-vesi-soojuspumbad.html">Loe lähemalt</a><a class="tlink" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20%C3%B5hk-vesisoojuspump&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige e-kirjaga</a></p>
+            </div>
+          </div>
+        </details>
+        <details class="opt" name="valik">
+          <summary><span>Soovin soojendada üht või mitut ruumi.</span><span class="opt-dot" aria-hidden="true"></span></summary>
+          <div class="opt-a">
+            <figure><img src="img/air-air-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Valgele seinale kinnitatud õhk-õhksoojuspumba välisosa sinise taeva taustal"></figure>
+            <div>
+              <p class="opt-sys">Õhk-õhksoojuspump</p>
+              <p>Seinale paigaldatav soojuspump, mis soojendab toa õhku.</p>
+              <p class="opt-do">Teeme: müük, paigaldus, hooldus ja remont.</p>
+              <p class="row"><a class="tlink" href="ohk-ohk-soojuspumbad.html">Loe lähemalt</a><a class="tlink" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20%C3%B5hk-%C3%B5hksoojuspump&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige e-kirjaga</a></p>
+            </div>
+          </div>
+        </details>
+        <details class="opt" name="valik">
+          <summary><span>Ehitan või uuendan maja küttesüsteemi.</span><span class="opt-dot" aria-hidden="true"></span></summary>
+          <div class="opt-a">
+            <figure><img src="img/heating-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Küttesüsteemi jaotur torude, tsirkulatsioonipumba ja ventiilidega"></figure>
+            <div>
+              <p class="opt-sys">Küttesüsteem</p>
+              <p>Torustik, jaotur ja pumbad, mis viivad soojuse ruumidesse.</p>
+              <p class="opt-do">Teeme: paigaldus. Müügi ja hoolduse kohta küsige.</p>
+              <p class="row"><a class="tlink" href="kuttesusteemid.html">Loe lähemalt</a><a class="tlink" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20k%C3%BCttes%C3%BCsteem&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige e-kirjaga</a></p>
+            </div>
+          </div>
+        </details>
+        <details class="opt" name="valik">
+          <summary><span>Tahan, et tuba oleks suvel jahedam.</span><span class="opt-dot" aria-hidden="true"></span></summary>
+          <div class="opt-a">
+            <figure><img src="img/climate-800.webp" width="800" height="534" loading="lazy" decoding="async" alt="Seinale paigaldatud kliimaseadme siseosa"></figure>
+            <div>
+              <p class="opt-sys">Kliimaseade</p>
+              <p>Seinale paigaldatav seade, mis jahutab ruumi suvel.</p>
+              <p class="opt-do">Teeme: paigaldus. Müügi ja hoolduse kohta küsige.</p>
+              <p class="row"><a class="tlink" href="kliimaseadmed.html">Loe lähemalt</a><a class="tlink" href="mailto:thermo.heart@hotmail.com?subject=K%C3%BCsimus%3A%20kliimaseade&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%3A%0D%0A%0D%0AMinu%20k%C3%BCsimus%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige e-kirjaga</a></p>
+            </div>
+          </div>
+        </details>
+        <details class="opt" name="valik">
+          <summary><span>Mul on soojuspump ja see vajab ülevaatust.</span><span class="opt-dot" aria-hidden="true"></span></summary>
+          <div class="opt-a">
+            <figure><img src="img/service.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Käsi õhksoojuspumba välisosa soojusvaheti juures"></figure>
+            <div>
+              <p class="opt-sys">Hooldus</p>
+              <p>Hooldame õhk-õhk- ja õhk-vesisoojuspumpasid, õhk-õhksoojuspumpade puhul teeme ka remonti.</p>
+              <p class="opt-do">Üldjuhul kord aastas. Täpne sagedus sõltub seadmest ja tootja juhendist.</p>
+              <p class="row"><a class="tlink" href="hooldus.html">Loe lähemalt</a><a class="tlink" href="mailto:thermo.heart@hotmail.com?subject=Hooldus&amp;body=Tere%21%0D%0A%0D%0ASeadme%20liik%2C%20mark%20ja%20mudel%20%28kui%20teate%29%3A%0D%0A%0D%0AAsukoht%3A%0D%0A%0D%0AMida%20olete%20m%C3%A4rganud%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige hooldust</a></p>
+            </div>
+          </div>
+        </details>
       </div>
     </div>
   </section>
 
-  <section class="section how" id="kuidas" aria-labelledby="kuidas-h">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <p class="kicker">Kuidas töö algab</p>
-          <h2 class="h2" id="kuidas-h">Kolm sammu päringust kokkuleppeni</h2>
-        </div>
-        <p>Hinna ütleme pärast päringut, sest see sõltub objektist ja süsteemist.</p>
-      </div>
-      
-    <ol class="steps">
-      <li><span class="step-n" aria-hidden="true">1</span><h3>Kirjutage</h3><p>Saatke e-kiri või kasutage kontaktvormi: objekt ja asukoht, süsteem ja mida on vaja teha. Foto aitab.</p></li>
-      <li><span class="step-n" aria-hidden="true">2</span><h3>Täpsustame</h3><p>Küsime vajadusel juurde, et aru saada, mis teil olemas on ja mida soovite.</p></li>
-      <li><span class="step-n" aria-hidden="true">3</span><h3>Lepime kokku</h3><p>Ütleme hinna ning lepime kokku töö ja sobiva aja.</p></li>
-    </ol>
-
-    </div>
-  </section>
-
-  <section class="section upkeep" id="hooldus" aria-labelledby="hooldus-h">
-    <div class="wrap upkeep-grid">
-      <figure class="upkeep-photo">
-        <img src="img/service.webp" width="960" height="1200" loading="lazy" decoding="async" alt="Käsi õhksoojuspumba välisosa soojusvaheti juures">
-      </figure>
+  <section class="save" aria-labelledby="save-h">
+    <div class="wrap save-grid">
       <div>
-        <p class="kicker">Hooldus</p>
-        <h2 class="h2" id="hooldus-h">Soojuspump vajab kord aastas ülevaatust</h2>
-        <p class="about-text">Välisosa kogub lehti, tolmu ja lund, filtrid ummistuvad. Regulaarne kontroll aitab märgata probleemi enne, kui seade seisma jääb.</p>
-        <p class="about-text">Hooldame õhk-õhk- ja õhk-vesisoojuspumpasid, õhk-õhksoojuspumpade puhul teeme ka remonti.</p>
-        <div class="actions">
-          <a class="btn btn--primary" href="hooldus.html">Loe hoolduse kohta <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-        </div>
+        <h2 id="save-h">Kas soojuspump tasub end ära?</h2>
+        <p class="save-lead">Ausalt: see sõltub majast. Kirjutage meile kolm asja ja me vastame teie maja kohta.</p>
+        <p class="fine">Hinna ütleme pärast päringut, sest see sõltub objektist ja süsteemist.</p>
+      </div>
+      <div class="letter" role="group" aria-label="Kiri, mille nupp avab">
+        <p class="letter-meta"><span>Kellele: <b>thermo.heart@hotmail.com</b></span><span>Teema: <b>Kas soojuspump sobib meie majale?</b></span></p>
+        <p class="letter-hi">Tere!</p>
+        <ol>
+          <li><span>Meie maja kütab praegu</span><i>nt õlikatel, elekter, puuküte</i></li>
+          <li><span>Maja suurus ja asukoht</span><i>küla ja vald</i></li>
+          <li><span>Soojus liigub</span><i>radiaatorid, põrandaküte või muu</i></li>
+        </ol>
+        <a class="btn" href="mailto:thermo.heart@hotmail.com?subject=Kas%20soojuspump%20sobib%20meie%20majale%3F&amp;body=Tere%21%0D%0A%0D%0AMeie%20maja%20k%C3%BCtab%20praegu%20%28nt%20%C3%B5likatel%2C%20elekter%2C%20puuk%C3%BCte%29%3A%0D%0A%0D%0AMaja%20suurus%20ja%20asukoht%20%28k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0ASoojus%20liigub%20%28radiaatorid%2C%20p%C3%B5randak%C3%BCte%20v%C3%B5i%20muu%29%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Avage see kiri <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </div>
   </section>
 
-  <section class="section about" id="meist" aria-labelledby="meist-h">
-    <div class="wrap">
-      <p class="year"><span class="year-num">2005</span><span class="year-cap">Aasta, mil ThermoHeart OÜ äriregistrisse kanti.</span></p>
-      <div class="about-body">
-        <p class="kicker">Meist</p>
-        <h2 class="h2" id="meist-h">Üks firma soojuspumba valikust hoolduseni</h2>
-        <p class="about-text">ThermoHeart OÜ on registreeritud 2005. aastal ja asub Väike-Maarja vallas Lääne-Virumaal. Aitame valida sobiva soojuspumba, paigaldame selle ja hooldame seda.</p>
-        <p class="about-text">Teie kontaktisik on firma juhatuse liige Jyri Tuli.</p>
-        <div class="reqs">
-          <h3>Rekvisiidid</h3>
-          <dl>
-            <div><dt>Ärinimi</dt><dd>ThermoHeart OÜ</dd></div>
-            <div><dt>Registrikood</dt><dd>11149774</dd></div>
-            <div><dt>KMKR nr</dt><dd>EE101070984</dd></div>
-            <div><dt>Registreeritud</dt><dd>28.06.2005</dd></div>
-          </dl>
-        </div>
-        <p class="more"><a class="link-arrow" href="meist.html">Rohkem firmast</a></p>
+  <section class="care" aria-labelledby="care-h">
+    <div class="wrap care-in">
+      <figure class="care-photo"><img src="img/v2-lumi.webp" width="1400" height="933" loading="lazy" decoding="async" alt="Lumega kaetud välisosa kronsteinil, all lumised puud"></figure>
+      <div class="care-copy">
+        <h2 id="care-h">Lumi, lehed ja tolm.</h2>
+        <p>Soojuspump töötab aastaringi ja välisosa kogub lehti, tolmu ja lund. Kord aastas tehtud kontroll hoiab seadme töökindlana ja aitab probleemi varakult märgata.</p>
+        <dl class="checks">
+          <div><dt>Puhtus</dt><dd>Siseosa filtrid ja välisosa soojusvaheti.</dd></div>
+          <div><dt>Kondensvesi</dt><dd>Äravool peab olema vaba, muidu võib talvel tekkida jää.</dd></div>
+          <div><dt>Külmaaine kontuur</dt><dd>Kontroll ja remont on spetsialisti töö.</dd></div>
+          <div><dt>Ühendused</dt><dd>Kaablid ja kinnitused, eriti välisosal tuule, vihma ja lume käes.</dd></div>
+        </dl>
+        <p class="row"><a class="btn" href="mailto:thermo.heart@hotmail.com?subject=Hooldus&amp;body=Tere%21%0D%0A%0D%0ASeadme%20liik%2C%20mark%20ja%20mudel%20%28kui%20teate%29%3A%0D%0A%0D%0AAsukoht%3A%0D%0A%0D%0AMida%20olete%20m%C3%A4rganud%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Küsige hooldust <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="tlink" href="hooldus.html">Loe hoolduse kohta</a></p>
       </div>
-      <figure class="about-photo">
-        <img src="img/about.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Tehnik ühendamas küttesüsteemi torustikku">
-      </figure>
     </div>
   </section>
 
-  <section class="section contact" id="kontakt" aria-labelledby="kontakt-h">
-    <div class="wrap">
-      <div class="contact-grid">
-        <div>
-          <p class="kicker">Kontakt</p>
-          <h2 class="h2" id="kontakt-h">Küsige pakkumist</h2>
-          <p class="lead">Kirjutage lühidalt, mis objekt see on ja kus see asub, millise süsteemiga on tegu ja mida on vaja teha. Lisage sobiv aeg ja võimalusel paar fotot.</p>
-          <a class="mail-big" href="mailto:thermo.heart@hotmail.com">thermo.heart@hotmail.com</a>
-          <div class="actions">
-            <a class="btn btn--light" href="mailto:thermo.heart@hotmail.com?subject=Hinnap%C3%A4ring&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%20%28nt%20eramu%20v%C3%B5i%20talu%2C%20k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0AS%C3%BCsteem%20%28nt%20%C3%B5hk-vesisoojuspump%2C%20k%C3%BCttes%C3%BCsteem%2C%20kliimaseade%29%3A%0D%0A%0D%0AMida%20on%20vaja%20teha%20%28nt%20paigaldus%2C%20hooldus%2C%20remont%29%3A%0D%0A%0D%0AMulle%20sobiv%20aeg%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Avage kirjapõhi <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-            <a class="btn btn--outline-light" href="kontakt.html#vorm">Kasutage kontaktvormi</a>
-          </div>
-        </div>
-        <div>
-          <p class="letter-cap">Nupp avab sellise kirja:</p>
-          <div class="letter">
-            <p class="letter-head"><span>Kellele: <b>thermo.heart@hotmail.com</b></span><span>Teema: <b>Hinnapäring</b></span></p>
-            <ul class="letter-body">
-              <li>Tere!</li>
-              <li>Objekt ja asukoht:</li>
-              <li>Süsteem:</li>
-              <li>Mida on vaja teha:</li>
-              <li>Mulle sobiv aeg:</li>
-              <li>Nimi ja telefon:</li>
-            </ul>
-          </div>
-        </div>
+  <section class="firm" aria-labelledby="firm-h">
+    <div class="wrap firm-grid">
+      <figure class="firm-photo"><img src="img/v2-toru.webp" width="860" height="1075" loading="lazy" decoding="async" alt="Paigaldaja töötab vasktoruga"></figure>
+      <div class="firm-copy">
+        <h2 id="firm-h">Üks firma valikust hoolduseni.</h2>
+        <p>ThermoHeart OÜ on kantud äriregistrisse 28.06.2005 ja asub <span class="nw">Väike-Maarja</span> vallas <span class="nw">Lääne-Virumaal</span>. Aitame valida sobiva soojuspumba, paigaldame selle ja hooldame seda.</p>
+        <p>Äriregistri järgi on firma põhitegevusala kütte-, ventilatsiooni- ja kliimaseadmete paigaldus, remont ja hooldus. Teie kontaktisik on juhatuse liige Jyri Tuli.</p>
+        <dl class="reg">
+          <div><dt>Ärinimi</dt><dd>ThermoHeart OÜ</dd></div>
+          <div><dt>Registrikood</dt><dd>11149774</dd></div>
+          <div><dt>KMKR nr</dt><dd>EE101070984</dd></div>
+          <div><dt>Registreeritud</dt><dd>28.06.2005</dd></div>
+        </dl>
+        <p class="row"><a class="tlink" href="https://ariregister.rik.ee/est/company/11149774" target="_blank" rel="noopener">Vaadake e-äriregistrist</a><a class="tlink" href="meist.html">Rohkem firmast</a></p>
       </div>
-      <dl class="contact-list">
-        <div><dt>Kontaktisik</dt><dd>Jyri Tuli</dd></div>
-        <div><dt>E-post</dt><dd><a href="mailto:thermo.heart@hotmail.com">thermo.heart@hotmail.com</a></dd></div>
-        <div><dt>Asukoht</dt><dd>Väike-Maarja vald, Lääne-Virumaa</dd></div>
+    </div>
+  </section>
+
+  <section class="warm" id="kontakt" aria-labelledby="warm-h">
+    <div class="wrap">
+      <h2 id="warm-h">Soojus jääb tuppa.</h2>
+      <p class="warm-lead">Kirjutage lühidalt, mis objekt see on ja kus see asub, millise süsteemiga on tegu ja mida on vaja teha. Lisage sobiv aeg ja võimalusel paar fotot.</p>
+      <a class="mail" href="mailto:thermo.heart@hotmail.com">thermo.heart<wbr>@hotmail.com</a>
+      <p class="row"><a class="btn btn--snow" href="mailto:thermo.heart@hotmail.com?subject=Hinnap%C3%A4ring&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%20%28nt%20eramu%20v%C3%B5i%20talu%2C%20k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0AS%C3%BCsteem%20%28nt%20%C3%B5hk-vesisoojuspump%2C%20k%C3%BCttes%C3%BCsteem%2C%20kliimaseade%29%3A%0D%0A%0D%0AMida%20on%20vaja%20teha%20%28nt%20paigaldus%2C%20hooldus%2C%20remont%29%3A%0D%0A%0D%0AMulle%20sobiv%20aeg%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Avage kirjapõhi <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="tlink" href="kontakt.html#vorm">Kasutage kontaktvormi</a></p>
+      <dl class="warm-list">
+        <div><dt>Kontaktisik</dt><dd>Jyri Tuli, juhatuse liige</dd></div>
+        <div><dt>Asukoht</dt><dd><span class="nw">Väike-Maarja</span> vald, <span class="nw">Lääne-Virumaa</span></dd></div>
       </dl>
     </div>
   </section>
 </main>
 
 <footer class="foot">
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-about">
-        <a class="brand brand--foot" href="index.html" aria-label="ThermoHeart OÜ, avaleht">
-          <svg viewBox="40 70 320 305" aria-hidden="true" focusable="false"><path d="M200 352 L79.79 231.79 A85 85 0 0 1 200 111.58 A85 85 0 0 1 320.21 231.79 Z" fill="none" stroke="#F2EDE4" stroke-width="22" stroke-linejoin="round"/><circle cx="200" cy="352" r="24" fill="#F2EDE4"/></svg>
-          <span><b>Thermo</b>Heart</span>
-        </a>
-        <p>Soojuspumbad, küttesüsteemid ja kliimaseadmed Väike-Maarja vallas Lääne-Virumaal.</p>
-      </div>
-      <div>
-        <p class="foot-title">Teenused</p>
-        <ul><li><a href="ohk-ohk-soojuspumbad.html">Õhk-õhksoojuspumbad</a></li><li><a href="ohk-vesi-soojuspumbad.html">Õhk-vesisoojuspumbad</a></li><li><a href="kuttesusteemid.html">Küttesüsteemid</a></li><li><a href="kliimaseadmed.html">Kliimaseadmed</a></li></ul>
-      </div>
-      <div>
-        <p class="foot-title">Leht</p>
-        <ul><li><a href="index.html">Avaleht</a></li><li><a href="teenused.html">Teenused</a></li><li><a href="hooldus.html">Hooldus</a></li><li><a href="meist.html">Meist</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="privaatsuspoliitika.html">Privaatsuspoliitika</a></li></ul>
-      </div>
-      <div>
-        <p class="foot-title">Kontakt</p>
-        <ul>
-          <li><a href="mailto:thermo.heart@hotmail.com">thermo.heart@hotmail.com</a></li>
-          <li class="foot-text">Kontaktisik: Jyri Tuli, juhatuse liige</li>
-          <li class="foot-text">Väike-Maarja vald, Lääne-Virumaa</li>
-        </ul>
-      </div>
+  <div class="wrap foot-grid">
+    <a class="mark" href="index.html" aria-label="ThermoHeart OÜ, avaleht">
+      <svg viewBox="40 70 320 305" aria-hidden="true" focusable="false"><path d="M200 352 L79.79 231.79 A85 85 0 0 1 200 111.58 A85 85 0 0 1 320.21 231.79 Z" fill="none" stroke="#fff" stroke-width="24" stroke-linejoin="round"/><circle cx="200" cy="352" r="26" fill="#fff"/></svg>
+      <span>Thermo<b>Heart</b></span>
+    </a>
+    <div class="foot-navs">
+      <nav aria-label="Lehed"><a href="teenused.html">Teenused</a><a href="ohk-vesi-soojuspumbad.html">Õhk-vesisoojuspumbad</a><a href="ohk-ohk-soojuspumbad.html">Õhk-õhksoojuspumbad</a><a href="kuttesusteemid.html">Küttesüsteemid</a><a href="kliimaseadmed.html">Kliimaseadmed</a><a href="hooldus.html">Hooldus</a><a href="meist.html">Meist</a><a href="kontakt.html">Kontakt</a><a href="privaatsuspoliitika.html">Privaatsuspoliitika</a></nav>
     </div>
-    <p class="foot-legal">ThermoHeart OÜ · registrikood 11149774 · KMKR nr EE101070984</p>
+    <p class="foot-legal">ThermoHeart OÜ · registrikood 11149774 · KMKR nr EE101070984 · <span class="nw">Väike-Maarja</span> vald, <span class="nw">Lääne-Virumaa</span></p>
   </div>
 </footer>
+
+<div class="dock">
+  <button class="dock-menu" type="button" aria-expanded="false" aria-controls="menu"><span aria-hidden="true"></span>Menüü</button>
+  <a class="btn" href="mailto:thermo.heart@hotmail.com?subject=Hinnap%C3%A4ring&amp;body=Tere%21%0D%0A%0D%0AObjekt%20ja%20asukoht%20%28nt%20eramu%20v%C3%B5i%20talu%2C%20k%C3%BCla%20ja%20vald%29%3A%0D%0A%0D%0AS%C3%BCsteem%20%28nt%20%C3%B5hk-vesisoojuspump%2C%20k%C3%BCttes%C3%BCsteem%2C%20kliimaseade%29%3A%0D%0A%0D%0AMida%20on%20vaja%20teha%20%28nt%20paigaldus%2C%20hooldus%2C%20remont%29%3A%0D%0A%0D%0AMulle%20sobiv%20aeg%3A%0D%0A%0D%0ANimi%20ja%20telefon%3A%0D%0A">Kirjutage meile <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+</div>
 </body>
 </html>
