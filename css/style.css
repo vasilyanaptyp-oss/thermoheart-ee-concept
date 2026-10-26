@@ -572,3 +572,39 @@ a { color: inherit; }
 .contact .letter-cap a, .contact .contact-list a { display: inline-block; padding-block: 10px; margin-block: -10px; }
 
 .card h3 a, .work dt a, .sys-link { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* ===== phone number ===== */
+.top-call { display: none; }
+.nav .nav-tel { gap: .5rem; font-weight: 600; white-space: nowrap; }
+.nav .nav-tel svg { width: 18px; height: 18px; flex: none; color: var(--wine); }
+
+.tel-link {
+  display: inline-flex; align-items: center; gap: .55rem; min-height: 44px;
+  font-weight: 600; color: var(--wine);
+  text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: .22em;
+}
+.tel-link svg { width: 18px; height: 18px; flex: none; }
+.tel-link:hover { color: var(--wine-deep); }
+.cta-actions .letter-cap + .letter-cap { margin-top: -.65rem; }
+
+/* wide screens: number in the nav; mid widths: round icon; phones: round button beside the menu button */
+@media (min-width: 900px) and (max-width: 1099px) {
+  .nav .nav-tel { width: 44px; padding: 0; justify-content: center; border: 1.5px solid var(--ink); }
+  .nav .nav-tel-txt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+}
+@media (max-width: 899px) {
+  .js .top .wrap { gap: .375rem; }
+  .js .top-call {
+    display: inline-flex; align-items: center; justify-content: center; flex: none;
+    width: 44px; height: 44px; margin-left: auto; border-radius: 50%;
+    background: var(--wine); color: var(--on-wine); transition: background-color .2s ease;
+  }
+  .js .top-call:hover { background: var(--wine-deep); }
+  .top-call svg { width: 21px; height: 21px; }
+  .js .menu-btn { padding-inline: .9rem; }
+}
+@media (max-width: 387px) {
+  .js .menu-btn { width: 48px; padding: 0; justify-content: center; gap: 0; }
+  .js .menu-btn-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+}
+@media (max-width: 339px) { .brand { font-size: 1.25rem; } }
