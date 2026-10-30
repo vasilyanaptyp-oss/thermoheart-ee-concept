@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vasylian.com/thermoheart-ee-concept/sitemap.xml
+Sitemap: https://www.thermoheart.ee/sitemap.xml
